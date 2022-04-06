@@ -1,0 +1,103 @@
+    body {
+        background-color: #121214;
+        font-family: 'IBM Plex Sans', sans-serif;
+        width: 100%;
+    }
+    
+    .container {
+        width: 100%;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .home {
+        font-size: 32px;
+        font-weight: 600;
+        line-height: 42px;
+        text-align: center;
+        color: #fff;
+    }
+    
+    .usuarios {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        text-align: center;
+        width: 700px;
+        margin: 0 auto;
+    }
+    
+    .user {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 160px;
+        border-radius: 20px;
+    }
+    
+    .foto_user {
+        border-radius: 20px;
+        border: transparent solid 2px;
+    }
+    
+    .button {
+        margin: 50px auto;
+        border: #fff solid 2px;
+        width: 206px;
+        height: 50px;
+        padding: auto;
+        border-radius: 10px;
+        transition: 0.6s;
+        background-color: #121214;
+    }
+    
+    .button p {
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 21px;
+        transition: 0.6s;
+        color: #fff;
+    }
+    
+    .avatar {
+        margin: 0;
+        border-radius: 20px;
+        overflow: hidden;
+        border: transparent solid 2px;
+    }
+    
+    .name {
+        color: aliceblue;
+        font-family: 'IBM Plex Sans';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 18px;
+    }
+    
+    .button:hover {
+        background-color: #fff;
+        color: #121214;
+    }
+    
+    .button p:hover {
+        color: #121214;
+    }
+    
+    .foto_user:hover {
+        border: #fff solid 2px;
+        transform: scale(1.5);
+        transition: 1s;
+        filter: brightness(200%);
+    }
+    
+    .logo:hover {
+        transform: scale(1.5);
+        transition: 1s;
+    }
+    
+    .avatar:hover {
+        border: #fff solid 2px;
+    }
